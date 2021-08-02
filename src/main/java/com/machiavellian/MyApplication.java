@@ -18,5 +18,6 @@ public class MyApplication  {
     public Integer divide(Integer firstArg, Integer secondArg) {
         return firstArg / secondArg;
     }
-	
+
+    public void test2() {}
 }
