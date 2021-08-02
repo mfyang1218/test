@@ -4,6 +4,7 @@ package com.machiavellian;
 public class MyApplication  {
 
 	public Integer add(Integer firstArg, Integer secondArg) {
+		System.out.println("this is new line from existing function 'add' in existing .java code");
 		return firstArg + secondArg;
 	}
 
@@ -26,4 +27,12 @@ public class MyApplication  {
     public void test4() {}
 	
     public void test5() {}
+	
+    public void test6() {
+	    System.out.println("this is the echo from new function 'test6' in existing .java code");
+    }
+
+    public void test7() {
+	    System.out.println("this is the echo from new function 'test7' in existing .java code");
+    }
 }
