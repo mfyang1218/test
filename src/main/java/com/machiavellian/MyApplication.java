@@ -16,6 +16,7 @@ public class MyApplication  {
     }
 
     public Integer divide(Integer firstArg, Integer secondArg) {
+	System.out.println("test string.");
         return firstArg / secondArg;
     }
   
