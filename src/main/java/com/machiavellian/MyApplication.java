@@ -12,6 +12,7 @@ public class MyApplication  {
     }
 
     public Integer multiply(Integer firstArg, Integer secondArg) {
+        System.out.println("test string.");
         return firstArg * secondArg;
     }
 
